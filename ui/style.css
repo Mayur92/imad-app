@@ -63,3 +63,7 @@ header li a:hover {
     background-color: #616A6B;
 }
 
+header li a:visited{
+    color: #5DADE2;
+}
+
