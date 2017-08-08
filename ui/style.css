@@ -59,5 +59,7 @@ header li a{
     text-decoration: none;
 }
     
-    
+header li a:hover {
+    background-color: #8585ad;
+}
 
