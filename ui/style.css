@@ -17,6 +17,12 @@ body {
 }
 
 .img-medium {
-    height: 200px;
+    height: 100px;
+}
+
+.left{
+    height: 50px;
+    margin-left:10px;
+    
 }
 
