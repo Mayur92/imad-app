@@ -26,6 +26,7 @@ body {
 
 .img-medium {
     height: 100px;
+    float:left;
 }
 
 .left{
@@ -73,5 +74,12 @@ header li a:hover {
 
 header li a:visited{
     color: #5DADE2;
+}
+
+header{
+    padding: 1em;
+    color:white;
+    background-color:black;
+    font-family:segoe UI Light;
 }
 
