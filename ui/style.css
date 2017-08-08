@@ -36,3 +36,28 @@ footer {
       
 }
 
+header ul{
+list-style-type: none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color:#333;
+border-style:solid;
+border-width: 1px;
+font-family: segoe UI;
+}
+
+header li{
+    float:left;
+}
+header li a{
+    display: block;
+    color: blue;
+    text-align:center;
+    
+}
+    
+    
+}
+    
+}
