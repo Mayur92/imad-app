@@ -1,4 +1,9 @@
 p{
     font-family: san sarif;
 }
-
+.container{
+    color: blue;
+    margin: 0 auto;
+    padding: 30px;
+    
+}
