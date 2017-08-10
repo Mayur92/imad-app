@@ -5,5 +5,11 @@ p{
     color: blue;
     margin: 0 auto;
     padding: 30px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+    background-color: chocolate;
+    border: aqua;
+    border-radius: 10px
     
 }
