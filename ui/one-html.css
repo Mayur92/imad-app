@@ -2,14 +2,21 @@ p{
     font-family: sans sarif;
 }
 .container{
-    color: blue;
+    color: royalblue;
     margin: 10 auto;
     padding: 10px;
     margin-left: 20px;
     margin-top: 30px;
     margin-right: 20px;
-    background-color: chocolate;
+    background-color: mediumspringgreen;
     border: aqua;
     border-radius: 10px
+    
+}
+header{
+    margin: 50 auto;
+    padding: 100px;
+    text-align: center;
+    
     
 }
