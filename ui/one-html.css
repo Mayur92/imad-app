@@ -22,6 +22,8 @@ header{
     border-width: 5px;
     border-radius: 10px;
     background-color: lightskyblue;
-    font-family: monospace;
+    font-family: fantasy;
+    font-size: x-large;
+    font-weight: 300;
     
 }
