@@ -3,7 +3,7 @@ var morgan = require('morgan');
 var path = require('path');
 
 var app = express();
-var articleName = req.params.aticleNames;
+var articleName = req.params.aticleName;
 var articles = {
    'article-two':{
             title: 'article-two',
