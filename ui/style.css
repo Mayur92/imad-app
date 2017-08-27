@@ -43,11 +43,11 @@ header ul{
 list-style-type: none;
 background-color:#4A235A;
 font-family: segoe UI;
-
+float: left;
 }
 
 header li{
-    float:left;
+    
     border-style:solid;
     border-width: 1px;
 }
