@@ -42,8 +42,8 @@ footer {
 header ul{
 list-style-type: none;
 background-color:#4A235A;
-
 font-family: segoe UI;
+float:left;
 }
 
 header li{
