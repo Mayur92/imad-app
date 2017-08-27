@@ -3,7 +3,7 @@ var morgan = require('morgan');
 var path = require('path');
 
 var app = express();
-var articleName = req.params.aticleName;
+
 var articles = {
    'article-two':{
             title: 'article-two',
@@ -90,6 +90,7 @@ app.get('/ui/article-one.html', function (req, res) {
    res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
 });
 
+var articleName = req.params.aticleName;
 app.get('/:articleName', function (req, res) {
    res.send(createTemplate(articles[articleName]));
 });
