@@ -7,7 +7,7 @@ var app = express();
  
 var articles =
     {
-    'article-two' = {
+    'article-two' : {
                 title: 'article-two',
                 heading: 'Article-two',
                 date: '27 Aug 2017',
@@ -24,7 +24,7 @@ var articles =
                     Welcome to next tutorial of version control. Today we Will have a look at how to commit code.
                 </p> `
            },
-    'article-three' ={
+    'article-three' :{
                 title: 'article-three',
                 heading: 'Article-three',
                 date: '28 Aug 2017',
