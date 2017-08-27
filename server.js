@@ -5,24 +5,43 @@ var path = require('path');
 var app = express();
 
  
-var articletwo =
-           {
-            title: 'article-two',
-            heading: 'Article-two',
-            date: '27 Aug 2017',
-            content: ` <p>
-                Welcome to next tutorial of version control. Today we Will have a look at how to commit code.
-                We have Different versioning tool availble in Market.The most used tool is GIT.
-            </p>
-            <p>
-                <b>GIT</b><br>
-                Let's have a look at GIT version contrl tool.This tool helps develpers to maintain code repository when large number of perople are
-                working on developing the application.
-            </p>
-            <p>
-                Welcome to next tutorial of version control. Today we Will have a look at how to commit code.
-            </p> `
-           };
+var articles =
+    {
+    'article-two' = {
+                title: 'article-two',
+                heading: 'Article-two',
+                date: '27 Aug 2017',
+                content: ` <p>
+                    Welcome to next tutorial of version control. Today we Will have a look at how to commit code.
+                    We have Different versioning tool availble in Market.The most used tool is GIT.
+                </p>
+                <p>
+                    <b>GIT</b><br>
+                    Let's have a look at GIT version contrl tool.This tool helps develpers to maintain code repository when large number of perople are
+                    working on developing the application.
+                </p>
+                <p>
+                    Welcome to next tutorial of version control. Today we Will have a look at how to commit code.
+                </p> `
+           },
+    'article-three' ={
+                title: 'article-three',
+                heading: 'Article-three',
+                date: '28 Aug 2017',
+                content: ` <p>
+                    Welcome to next tutorial of version control. Today we Will have a look at how to commit code.
+                    We have Different versioning tool availble in Market.The most used tool is GIT.
+                </p>
+                <p>
+                    <b>GIT</b><br>
+                    Let's have a look at GIT version contrl tool.This tool helps develpers to maintain code repository when large number of perople are
+                    working on developing the application.
+                </p>
+                <p>
+                    Welcome to next tutorial of version control. Today we Will have a look at how to commit code.
+                </p> `
+           }
+    };
 
 function createTemplate(data){
     var title = data.title;
@@ -77,11 +96,11 @@ app.get('/ui/article-two.html', function (req, res) {
    res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
 });
 
-/*app.get('/ui/:articleName', function (req, res) {
+app.get('/ui/:articleName', function (req, res) {
     var articleName = req.params.articleName;
    res.send(createTemplate(articles[articleName]));
 });
-*/
+
 
 app.get('/ui/one-html.css', function (req, res) {
    res.sendFile(path.join(__dirname, 'ui', 'one-html.css'));
