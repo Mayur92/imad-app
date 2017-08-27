@@ -55,6 +55,7 @@ header li a{
     text-align: center;
     padding: 3px;
     text-decoration: none;
+     float:left;
 }
     
 header li a:hover {
