@@ -18,7 +18,7 @@ var articleTwo ={
                 working on developing the application.
             </p>
             <p>
-                Welcome to next tutorial of version control. TOday we Will have a look at how to commit code.
+                Welcome to next tutorial of version control. Today we Will have a look at how to commit code.
             </p> `
 };
 
