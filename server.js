@@ -4,11 +4,12 @@ var path = require('path');
 
 var app = express();
 
-var articleTwo ={
-    title: 'article-two',
-    heading: 'Article-two',
-    date: '27 Aug 2017',
-    content: ` <p>
+var articles = {
+   articleTwo:{
+            title: 'article-two',
+            heading: 'Article-two',
+            date: '27 Aug 2017',
+            content: ` <p>
                 Welcome to next tutorial of version control. Today we Will have a look at how to commit code.
                 We have Different versioning tool availble in Market.The most used tool is GIT.
             </p>
@@ -20,6 +21,24 @@ var articleTwo ={
             <p>
                 Welcome to next tutorial of version control. Today we Will have a look at how to commit code.
             </p> `
+             },
+    articleThree:{
+            title: 'article-Three',
+            heading: 'Article-Three',
+            date: '28 Aug 2017',
+            content: ` <p>
+                Welcome to next tutorial of version control. Today we Will have a look at how to commit code.
+                We have Different versioning tool availble in Market.The most used tool is GIT.
+            </p>
+            <p>
+                <b>GIT Branch</b><br>
+                Let's know more about branching in GIT.
+            </p>
+            <p>
+                Branching is nothing but creating new code repository where we can work without affecting current working code.
+            </p> `
+             }
+
 };
 
 function createTemplate(data){
