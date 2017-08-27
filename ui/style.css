@@ -56,7 +56,7 @@ header li{
     float:left;
 }
 header li a{
-    display: block;
+    display: relative;
     color: #D98880;
     text-align: center;
     padding: 5px 15px 15px 5px ;
@@ -73,7 +73,7 @@ header li a:visited{
 
 header{
     padding: 1em;
-    margin: 10px;
+    margin: 0px auto;
     color:white;
     background-color:black;
     font-family:segoe UI Light;
