@@ -3,9 +3,9 @@ var morgan = require('morgan');
 var path = require('path');
 
 var app = express();
-
+var articleName = req.params.aticleNames;
 var articles = {
-   articleTwo:{
+   'article-two':{
             title: 'article-two',
             heading: 'Article-two',
             date: '27 Aug 2017',
@@ -22,7 +22,7 @@ var articles = {
                 Welcome to next tutorial of version control. Today we Will have a look at how to commit code.
             </p> `
              },
-    articleThree:{
+   'article-three':{
             title: 'article-Three',
             heading: 'Article-Three',
             date: '28 Aug 2017',
@@ -90,13 +90,10 @@ app.get('/ui/article-one.html', function (req, res) {
    res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
 });
 
-app.get('/ui/article-two.html', function (req, res) {
-   res.send(createTemplate(articleTwo));
+app.get('/articleName', function (req, res) {
+   res.send(createTemplate(articles[articleName]));
 });
 
-app.get('/ui/article-three.html', function (req, res) {
-   res.sendFile(path.join(__dirname, 'ui', 'article-three.html'));
-});
 
 app.get('/ui/one-html.css', function (req, res) {
    res.sendFile(path.join(__dirname, 'ui', 'one-html.css'));
