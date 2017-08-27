@@ -53,6 +53,7 @@ header li{
 header li a{
     color: #D98880;
     text-align: center;
+    header: 5px;
     text-decoration: none;
 }
     
