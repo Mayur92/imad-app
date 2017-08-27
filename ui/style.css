@@ -68,7 +68,7 @@ header li a:visited{
 }
 
 header{
-
+    padding:1px;
     margin: 0px auto;
     color:white;
     background-color:black;
